@@ -1,0 +1,199 @@
+[2022-09-29 06:40:35 EDT] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+MESSAGE "Pass 1. Scanning modules hierarchy."
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "generator.sv" 14  20
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "driver.sv" 14  20
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "monitors.sv" 16  20
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "scoreboard.sv" 11  20
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "environment.sv" 27  20
+WARNING VCP2947 "Default parameter values used for class std::mailbox specialization." "environment.sv" 28  20
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE "Pass 3. Processing behavioral statements."
+WARNING VCP2803 "Function item.randomize result is ignored." "generator.sv" 32  43
+WARNING VCP2803 "Function item.randomize result is ignored." "generator.sv" 55  43
+WARNING VCP2803 "Function item.randomize result is ignored." "generator.sv" 72  43
+WARNING VCP2803 "Function item.randomize result is ignored." "generator.sv" 115  43
+WARNING VCP2803 "Function item.randomize result is ignored." "generator.sv" 137  43
+WARNING VCP2803 "Function this.items.pop_back result is ignored." "scoreboard.sv" 63  45
+WARNING VCP2803 "Function this.items.pop_front result is ignored." "scoreboard.sv" 74  46
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Unit top modules: tb_RTL."
+MESSAGE "$root top modules: tb_RTL."
+SUCCESS "Compile success 0 Errors 13 Warnings  Analysis time: 0[s]."
+ALOG: Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+done
+# Aldec, Inc. Riviera-PRO version 2022.04.117.8517 built for Linux64 on May 04, 2022.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2022 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library '/usr/share/Riviera-PRO/bin/libsystf.so'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 5 (83.33%) other processes in SLP
+# SLP: 10 (2.48%) signals in SLP and 33 (8.17%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5698 kB (elbread=459 elab2=5065 kernel=173 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: 
+# KERNEL: 0: Generator daemon starting ...
+# KERNEL: 
+# KERNEL: 0 [generator] din = 169, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 1
+# KERNEL: 0 [generator] din = 155, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 35, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 126, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 100, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 161, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 235, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 78, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 56, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 199, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 9, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 121, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 64, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 105, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 29, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 79, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 171, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 84, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 139, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 0 [generator] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 
+# KERNEL: 0: Driver daemon starting ...
+# KERNEL: 0: Monitor daemon starting ...
+# KERNEL: 
+# KERNEL: 14000 [driver] din = 169, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 1
+# KERNEL: 15000 [input_monitor] din = 169, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 1
+# KERNEL: 15000 [scoreboard] Memory purged
+# KERNEL: 
+# KERNEL: 24000 [driver] din = 155, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 25000 [input_monitor] din = 155, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 25000 [scoreboard] Value 155 stored at address 0x1
+# KERNEL: 
+# KERNEL: 34000 [driver] din = 35, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 35000 [input_monitor] din = 35, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 35000 [scoreboard] Value 35 stored at address 0x2
+# KERNEL: 
+# KERNEL: 44000 [driver] din = 126, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 45000 [input_monitor] din = 126, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 45000 [scoreboard] Value 126 stored at address 0x3
+# KERNEL: 
+# KERNEL: 54000 [driver] din = 100, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 55000 [input_monitor] din = 100, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 55000 [scoreboard] Value 100 stored at address 0x4
+# KERNEL: 
+# KERNEL: 64000 [driver] din = 161, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 65000 [input_monitor] din = 161, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 65000 [scoreboard] Value 161 stored at address 0x5
+# KERNEL: 
+# KERNEL: 74000 [driver] din = 235, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 75000 [input_monitor] din = 235, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 75000 [scoreboard] Value 235 stored at address 0x6
+# KERNEL: 
+# KERNEL: 84000 [driver] din = 78, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 85000 [input_monitor] din = 78, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 85000 [scoreboard] Value 78 stored at address 0x7
+# KERNEL: 
+# KERNEL: 94000 [driver] din = 56, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 95000 [input_monitor] din = 56, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 95000 [scoreboard] Value 56 stored at address 0x8
+# KERNEL: 
+# KERNEL: 104000 [driver] din = 199, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 105000 [input_monitor] din = 199, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 105000 [scoreboard] Value 199 stored at address 0x9
+# KERNEL: 
+# KERNEL: 114000 [driver] din = 9, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 115000 [input_monitor] din = 9, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 115000 [scoreboard] Value 9 stored at address 0xa
+# KERNEL: 
+# KERNEL: 124000 [driver] din = 121, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 125000 [input_monitor] din = 121, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 125000 [scoreboard] Value 121 stored at address 0xb
+# KERNEL: 
+# KERNEL: 134000 [driver] din = 64, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 135000 [input_monitor] din = 64, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 135000 [scoreboard] Value 64 stored at address 0xc
+# KERNEL: 
+# KERNEL: 144000 [driver] din = 105, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 145000 [input_monitor] din = 105, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 145000 [scoreboard] Value 105 stored at address 0xd
+# KERNEL: 
+# KERNEL: 154000 [driver] din = 29, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 155000 [input_monitor] din = 29, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 155000 [scoreboard] Value 29 stored at address 0xe
+# KERNEL: 
+# KERNEL: 164000 [driver] din = 79, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 165000 [input_monitor] din = 79, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 165000 [scoreboard] Value 79 stored at address 0xf
+# KERNEL: 
+# KERNEL: 174000 [driver] din = 171, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 175000 [input_monitor] din = 171, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 175000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 184000 [driver] din = 84, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 185000 [input_monitor] din = 84, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 185000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 194000 [driver] din = 139, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 195000 [input_monitor] din = 139, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 195000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 204000 [driver] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 0, reset = 0
+# KERNEL: 205000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 205000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 215000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 215000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 225000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 225000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 235000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 235000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 245000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 245000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 255000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 255000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 265000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 265000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 275000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 275000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 285000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 285000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# KERNEL: 295000 [input_monitor] din = 113, myMode = LIFO, chip_en(lifo/fifo/buffer) = 100, push/pop = 10, dout = 0, empty = 0, full = 1, reset = 0
+# KERNEL: 295000 [scoreboard] Stop pushing! It will overflow!
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (41): $finish called.
+# KERNEL: Time: 300 ns,  Iteration: 0,  Instance: /tb_RTL,  Process: @INITIAL#33_1@.
+# KERNEL: stopped at time: 300 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
+Finding VCD file...
+./dump.vcd
+[2022-09-29 06:40:38 EDT] Opening EPWave...
+Done

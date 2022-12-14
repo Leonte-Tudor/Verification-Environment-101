@@ -1,0 +1,13 @@
+Bugs:
+
+- Reset sets the empty flag to 0 instead of 1. Minor issue, easily fixable;
+
+- The module still operates in all modes with reset high, because there are 2 separate always blocks for clk and reset. There should be only one with if's;
+
+- It doesn't check if there are multiple chips enabled. If there are, it still works, could be a feature if specified;
+
+- STACK_SIZE is not configurable via parameter;
+
+- Pushing works when both push and pop are high;
+
+- If we select mode = 3, previous outputs linger, probably not desirable.
